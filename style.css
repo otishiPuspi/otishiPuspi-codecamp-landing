@@ -65,3 +65,84 @@
 
 
 
+.Logo{
+  height:100px;
+  width:100px ;
+  border-radius: 50%;
+}
+
+.cards-container , .container , .Container{
+  display:inline-block;
+  flex-wrap: wrap;
+  width:450px;
+  height:450px;
+  border:black solid 3px;
+  border-radius: 10px;
+  vertical-align: top;
+  margin: 10px;
+  place-items:center;
+}
+.Courses{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.cards{
+  text-align: center;
+  padding: 60px 20px;
+}
+.cards h2{
+  font-size: 30px;
+  font-weight:bold;
+}
+.cards p{
+  font-size: 20px;
+  font-style:oblique;
+}
+.features-list {
+  list-style:circle;
+  text-align:justify;
+  margin-bottom: 30px;
+}
+.features-list li {
+ font-size: 16px;
+}
+.keyfeatures{
+  font-size:20px ;
+  text-decoration: underline;
+}
+.btn a{
+  border: none;
+  padding: 10px;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;  display:inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+  padding: 10px;
+}
+ .card-title{
+  font-size: 30px;
+  font-weight:bold;
+}
+.duration{
+  font-size: 20px;
+}
+.price{
+  font-size: 20px;
+}
+html{
+  scroll-behavior:smooth ;
+}
+
+
+ 
+
+
+
+
+
