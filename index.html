@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,15 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
+
 <body>
 
   <header class="top-header">
 
     <figure class="logo-box">
-  <img class="logo" src="images/logo-2.avif" alt="CodeCamp logo">
-  <figcaption>Codecamp - Frontend & Backend learning platform.</figcaption>
-  </figure> 
+      <img class="logo" src="images/logo-2.avif" alt="CodeCamp logo">
+      <figcaption>Codecamp - Frontend & Backend learning platform.</figcaption>
+    </figure>
 
     <nav class="nav-link">
       <a href="#home">Home</a> &nbsp; &nbsp;
@@ -30,207 +32,218 @@
 
 
   <main class="hero">
-   <div id="home">
-  <h1>CodeCamp 2025. 💻</h1>
-  <h3>Learn to Code in 6 Months.👩‍💻</h3>
-  <p>
-CodeCamp is a beginner-friendly learning platform where you can learn frontend and backend development through simple lessons and real projects.
-</p>
-<div class="button-box">
-<button class="btn-1"><a href="#courses">View Courses</a></button> 
-<button class="btn-2"><a href="#apply-now">Apply Now</a></button>
-</div>
-</div> 
-<hr>
-
-  <div class="cards" id="courses">
+    <div id="home">
+      <h1>CodeCamp 2025. 💻</h1>
+      <h3>Learn to Code in 6 Months.👩‍💻</h3>
+      <p>
+        CodeCamp is a beginner-friendly learning platform where you can learn frontend and backend development through
+        simple lessons and real projects.
+      </p>
+      <div class="button-box">
+        <button class="btn-1"><a href="#courses">View Courses</a></button>
+        <button class="btn-2"><a href="#apply-now">Apply Now</a></button>
+      </div>
+    </div>
+    <hr>
+<div class="cards" id="courses">
   <h2>Our Courses</h2>
-  <p>Build job-ready skills in Web Development, Data Science, and Mobile App Development with hands-on, industry-focused courses.</p>
-  <div class="Courses">
-   <div class="cards-container">
-    <div class="webdev-card">
-  <img class="Logo" src="images/webdev.png" alt="webdev-logo">
-    <h3 class="card-title">Web Development</h3>
-  <div class="duration">Duration: 6 Months</div>
-  <div class="price">Price: ৳1000</div>
-  <ul class="features-list">
-    <label class="keyfeatures">Key Features:</label>
-    <li>HTML, CSS, JavaScript</li>
-    <li>React & modern tools</li>
-    <li>Responsive design</li>
-    <li>Real-world projects</li>
-  </ul>
-  <button class="btn"><a href="#features">Learn More</a> </button>
+  <p>
+    Build job-ready skills in Web Development, Data Science, and Mobile App Development
+    with hands-on, industry-focused courses.
+  </p>
 
-  </div>
-</div>
-<div class="datascience-card">
-  <div class="container">
-  <img class="Logo" src="images/Data science.jpg" alt="data science logo">
-  <h3 class="card-title">Data Science</h3>
-   <div class="duration">Duration: 6 Months</div>
-  <div class="price">Price: ৳1000</div>
-   <ul class="features-list">
-    <label class="keyfeatures">Key Features:</label>
-    <li>Python & data analysis</li>
-    <li>Pandas & NumPy</li>
-    <li>Machine learning basics</li>
-    <li>Case studies</li>
-  </ul>
-  <button class="btn"><a href="#features">Learn More</a></button>
-  
-</div>
-</div>
-<div class="mobiledev-card">
-  <div class="Container">
-  <img class="Logo" src="images/Mobile dev.png" alt="mobile dev logo">
-  <h3 class="card-title">Mobile Development</h3>
-   <div class="duration">Duration: 6 Months</div>
-  <div class="price">Price: ৳1000</div>
- <ul class="features-list">
-  <label class="keyfeatures">Key Features:</label>
-   <li>Flutter / React Native</li>
-   <li>Android & iOS apps</li>
-   <li>UI/UX basics</li>
-   <li>API integration</li>
- </ul>
-  <button class="btn"><a href="#features">Learn More</a></button>
-  
-</div>
-</div>
+  <div class="courses-grid">
 
+    <!-- Card 1 -->
+    <div class="course-card">
+      <img class="logo" src="images/webdev.png" alt="webdev-logo">
 
-</div>
-</div>
-<hr>
+      <h3 class="card-title">Web Development</h3>
+      <div class="duration">Duration: 6 Months</div>
+      <div class="price">Price: ৳600</div>
 
-<div class="features" id="features">
-  <h2>Why Choose CodeCamp?</h2>
-  <div class="feature-list">
-    <div class="feature-1">
-      <div class="icon">👩‍💻</div>
-      <h3>Hands-on Coding</h3>
-        <p>Practice real projects to improve your coding skills.</p>
+      <div class="keyfeatures">Key Features:</div>
+      <ul class="features-list">
+        <li>HTML, CSS, JavaScript</li>
+        <li>React & modern tools</li>
+        <li>Responsive design</li>
+        <li>Real-world projects</li>
+      </ul>
+
+      <a class="btn" href="#features">Learn More</a>
     </div>
 
-    <div class="feature-2">
-      <div class="icon">🌱</div>
-      <h3>Beginner Friendly</h3>
-      <p>Easy lessons designed specially for beginners.</p>
+    <!-- Card 2 -->
+    <div class="course-card">
+      <img class="logo" src="images/Data science.jpg" alt="data science logo">
+
+      <h3 class="card-title">Data Science</h3>
+      <div class="duration">Duration: 6 Months</div>
+      <div class="price">Price: ৳600</div>
+
+      <div class="keyfeatures">Key Features:</div>
+      <ul class="features-list">
+        <li>Python & data analysis</li>
+        <li>Pandas & NumPy</li>
+        <li>Machine learning basics</li>
+        <li>Case studies</li>
+      </ul>
+
+      <a class="btn" href="#features">Learn More</a>
     </div>
 
-    <div class="feature-3">
-      <div class="icon">🛠️</div>
-      <h3>Expert Support</h3>
-      <p>Get help and guidance from experienced mentors.</p>
-    </div>
-  </div>
-</div>
-<hr>
+    <!-- Card 3 -->
+    <div class="course-card">
+      <img class="logo" src="images/Mobile dev.png" alt="mobile dev logo">
 
-<section class="testimonials">
-  <h2>Student Success Stories</h2>
+      <h3 class="card-title">Mobile Development</h3>
+      <div class="duration">Duration: 6 Months</div>
+      <div class="price">Price: ৳600</div>
 
-  <div class="testimonial-list">
+      <div class="keyfeatures">Key Features:</div>
+      <ul class="features-list">
+        <li>Flutter / React Native</li>
+        <li>Android & iOS apps</li>
+        <li>UI/UX basics</li>
+        <li>API integration</li>
+      </ul>
 
-    <div class="testimonial">
-      <img src="images/sakura.jpg" alt="Student photo">
-
-      <p class="quote">
-        "CodeCamp helped me build real projects and gain confidence in coding."
-      </p>
-
-      <h4>Haruno Sakura</h4>
-      <span>Web Development</span>
-
-      <div class="rating">★★★★★</div>
-    </div>
-
-    <div class="testimonial">
-      <img src="images/Naruto.png" alt="Student photo">
-
-      <p class="quote">
-        "The lessons were easy to follow and perfect for beginners like me."
-      </p>
-
-      <h4>Naruto Uzumaki</h4>
-      <span>Frontend Basics</span>
-
-      <div class="rating">★★★★☆</div>
-    </div>
-
-    <div class="testimonial">
-      <img src="images/Hinata.jpg" alt="Student photo">
-
-      <p class="quote">
-        "Mentor support really helped me solve problems faster."
-      </p>
-
-      <h4>Hinata Hyuga</h4>
-      <span>JavaScript Course</span>
-
-      <div class="rating">★★★★★</div>
+      <a class="btn" href="#features">Learn More</a>
     </div>
 
   </div>
-</section>
-<hr>
+</div>
 
-<div id="contact">
-  <div id="enroll">
-    <div id="apply-now">
-<div class="contact-section">
+    <hr>
 
-  <h2 class="cnt-header">Contact Us</h2>
-  <form>
-    <label class="label">Name:</label><br>
-    <input type="text" placeholder="Enter your name.." required><br><br>
-    <label class="label">Email:</label><br>
-    <input type="email" placeholder="Enter Your Email.." required><br><br>
-    <label class="label">Message:</label><br>
-    <textarea rows="5" placeholder="Enter Message.."></textarea><br><br>
+    <div class="features" id="features">
+      <h2>Why Choose CodeCamp?</h2>
+      <div class="feature-list">
+        <div class="feature-1 list">
+          <div class="icon">👩‍💻</div>
+          <h3>Hands-on Coding</h3>
+          <p>Practice real projects to improve your coding skills.</p>
+        </div>
 
-    <button class="butn" type="submit">Submit</button>
-  </form>
+        <div class="feature-2 list">
+          <div class="icon">🌱</div>
+          <h3>Beginner Friendly</h3>
+          <p>Easy lessons designed specially for beginners.</p>
+        </div>
 
-  
-  <div class="contact-info">
-    <p>Email: otishy@email.com</p>
-    <p>Phone: +880 1234 567890</p>
-
-  
-    <div class="social">
-      <a href="#">🔗</a>
+        <div class="feature-3 list">
+          <div class="icon">🛠️</div>
+          <h3>Expert Support</h3>
+          <p>Get help and guidance from experienced mentors.</p>
+        </div>
+      </div>
     </div>
-  </div>
+    <hr>
 
-</div>
-</div>
-</div>
-</div>
-<hr>
+    <section class="testimonials">
+      <h2>Student Success Stories</h2>
 
-<footer class="footer">
+      <div class="testimonial-list">
 
-  <p class="copyright">&copy; All rights reserved by Puspi.</p>
+        <div class="testimonial list">
+          <img src="images/sakura.jpg" alt="Student photo">
 
-  <ul class="footer-links">
-      <li><a href="#home">Home</a></li> &nbsp; &nbsp;
-      <li><a href="#courses">Courses</a></li> &nbsp; &nbsp;
-      <li><a href="#features">Features</a></li> &nbsp; &nbsp;
-      <li><a href="#contact">Contact</a></li>
-  </ul>
+          <p class="quote">
+            "CodeCamp helped me build real projects and gain confidence in coding."
+          </p>
 
-  
-  <div class="footer-social">
-    <a href="#">🌐</a>
-    <a href="#">📘</a>
-    <a href="#">📷</a>
-  </div>
+          <h4>Haruno Sakura</h4>
+          <span>Web Development</span>
 
-</footer>
+          <div class="rating">★★★★★</div>
+        </div>
+
+        <div class="testimonial list">
+          <img src="images/Naruto.png" alt="Student photo">
+
+          <p class="quote">
+            "The lessons were easy to follow and perfect for beginners like me."
+          </p>
+
+          <h4>Naruto Uzumaki</h4>
+          <span>Frontend Basics</span>
+
+          <div class="rating">★★★★☆</div>
+        </div>
+
+        <div class="testimonial list">
+          <img src="images/Hinata.jpg" alt="Student photo">
+
+          <p class="quote">
+            "Mentor support really helped me solve problems faster."
+          </p>
+
+          <h4>Hinata Hyuga</h4>
+          <span>JavaScript Course</span>
+
+          <div class="rating">★★★★★</div>
+        </div>
+
+      </div>
+    </section>
+    <hr>
+
+    <div id="contact">
+      <div id="enroll">
+        <div id="apply-now">
+          <div class="contact-section">
+
+            <h2 class="cnt-header">Contact Us</h2>
+            <form>
+              <label class="label">Name:</label><br>
+              <input type="text" placeholder="Enter your name.." required><br><br>
+              <label class="label">Email:</label><br>
+              <input type="email" placeholder="Enter Your Email.." required><br><br>
+              <label class="label">Message:</label><br>
+              <textarea rows="5" placeholder="Enter Message.."></textarea><br><br>
+
+              <button class="butn" type="submit">Submit</button>
+            </form>
+
+
+            <div class="contact-info">
+              <p>Email: otishy@email.com</p>
+              <p>Phone: +880 1234 567890</p>
+
+
+              <div class="social">
+                <a href="#">🔗</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <footer class="footer">
+
+      <p class="copyright">&copy; All rights reserved by Puspi.</p>
+
+      <ul class="footer-links">
+        <li><a href="#home">Home</a></li> &nbsp; &nbsp;
+        <li><a href="#courses">Courses</a></li> &nbsp; &nbsp;
+        <li><a href="#features">Features</a></li> &nbsp; &nbsp;
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+
+      <div class="footer-social">
+        <a href="#">🌐</a>
+        <a href="#">📘</a>
+        <a href="#">📷</a>
+      </div>
+
+    </footer>
 
 
   </main>
 </body>
+
 </html>
